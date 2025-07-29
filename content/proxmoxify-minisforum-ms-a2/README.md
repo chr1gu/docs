@@ -68,6 +68,7 @@ I'll use it to host a Rust server powered by XUbuntu.
    * `curl -Lo linuxgsm.sh https://linuxgsm.sh && chmod +x linuxgsm.sh && bash linuxgsm.sh rustserver`
    * `./rustserver install`
 4. Start the server with the default configuration: `./rustserver start`
+5. Start Rust and press F1 `client.connect <Public-IP>:28015` (requires port-forwarding, see below)
 
 
 ### Port forwarding Ubiquiti EFG
