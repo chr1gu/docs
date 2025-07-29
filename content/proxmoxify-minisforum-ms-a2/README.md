@@ -89,3 +89,10 @@ I'll use it to host a Rust server powered by XUbuntu.
    * Forward IP Address: <IP from VM>
    * Forward Port: 28016
    * Protocol: TCP/UDP
+
+
+### Customize Rustserver
+
+1. Run `./rustserver details`
+   It will tell you where the config file is located at.
+2. Edit it
