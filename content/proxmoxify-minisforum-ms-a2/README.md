@@ -69,6 +69,7 @@ I'll use it to host a Rust server powered by XUbuntu.
    * `./rustserver install`
 4. Start the server with the default configuration: `./rustserver start`
 5. Start Rust and press F1 `client.connect <Public-IP>:28015` (requires port-forwarding, see below)
+6. Configure it: ./proxmox-rust-gameserver/README.md
 
 
 ### Port forwarding Ubiquiti EFG
@@ -89,10 +90,3 @@ I'll use it to host a Rust server powered by XUbuntu.
    * Forward IP Address: <IP from VM>
    * Forward Port: 28016
    * Protocol: TCP/UDP
-
-
-### Customize Rustserver
-
-1. Run `./rustserver details`
-   It will tell you where the config file is located at.
-2. Edit it
